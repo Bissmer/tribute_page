@@ -2,7 +2,20 @@
     margin: 25px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(219, 212, 212);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16x;
+}
+
+#img-src {
+    background-color: rgb(10, 10, 10);
+}
+
+#caption {
+    color: aliceblue;
+}
+
+.fit-picture {
+    width: 100%;
+    height: auto;
 }
