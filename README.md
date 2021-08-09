@@ -1,1 +1,1 @@
-A tribute page to John Carmack
+A tribute page of John Carmack
