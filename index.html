@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>John Carmak Tribute Page</title>
         <style>
@@ -14,22 +15,34 @@
             #caption {
                 font-family: "Oswald", sans;
             }
+            li {
+                font-family: 'Oswald', sans-serif;
+            }
         </style>
     </head>
     <body>
         <main id="main">
             <div class="intro">
-            <h1>John Karmack</h1>
+            <h1 id="title">John Karmack</h1>
             <p>
                 <h3>The man who defined First Person Shooters</h3>
             </p>
-            <figure id="img-src">
+            <figure id="img-fig">
                 <img id ="image"
                      class="fit-picture"
                      src="/images/carmack.png"
                      alt="John himself"
                      loading="lazy">
                 <figcaption id="caption">John as a consultant at Facebook/Oculus</figcaption>
+            </figure>
+            <figure id="tribute-info">
+                <h3>Here are some facts about John's life:</h3>
+                <div class="unordered-list">
+                    <ul>
+                        <li> <strong>August 20 1970</strong> - Born in Shawnee Mission, Kanzas</li>
+                        <li> <strong>1990</strong> - Creates Commander Keen with John Romero, Adrian Carmack and others</li>
+                    </ul>
+                </div>
             </figure>
             </div>
         </main>
