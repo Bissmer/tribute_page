@@ -11,17 +11,16 @@
     background-color: rgb(219, 212, 212);
 }
 
-.unordered-list ul {
+ul {
     display: table;
     text-align: center;
     margin: 0 auto;
     list-style-position: inside;
 }
 
-
 .fit-picture {
-    width: 100%;
-    max-width: 300;
+    width: auto;
+    max-width: 100%;
     height: auto;
 }
 
@@ -34,9 +33,11 @@
     align-self: center;
 }
 
-#tribute-info {
-    align-self: center;
+blockquote {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    
 }
-
 
 
