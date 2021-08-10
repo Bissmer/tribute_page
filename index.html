@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>John Carmak Tribute Page</title>
-        <style>
-            main {
-                font-family: "Oswald", sans;
-            }
-        </style>
-    </head>
-    <body>
-        <main id="main">
-            <div class="intro">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>John Carmak Tribute Page</title>
+    <style>
+        main {
+            font-family: "Oswald", sans;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main">
+        <div class="intro">
             <h1 id="title">John Carmack</h1>
             <h3>The man who defined First Person Shooters</h3>
             <figure id="img-fig">
-                <img id ="image"
-                     class="fit-picture"
-                     src="/images/carmack.png"
-                     alt="John himself"
-                     loading="lazy">
+                <img id="image" class="fit-picture" src="/images/carmack.png" alt="John himself" loading="lazy">
                 <figcaption id="caption">John as a consultant at Facebook/Oculus</figcaption>
             </figure>
             <div id="tribute-info">
@@ -29,27 +27,62 @@
                 <div class="unordered-list">
                     <ul>
                         <li> <strong>August 20 1970</strong> - Born in Shawnee Mission, Kanzas</li>
-                        <li> <strong>1990</strong> - Creates Commander Keen with John Romero, Adrian Carmack and others</li>
+                        <li> <strong>1990</strong> - Creates Commander Keen with John Romero, Adrian Carmack and others
+                        </li>
                         <li><strong>May 5 1992</strong> - Released Wolfenstein 3d as a main programmer</li>
                         <li><strong>December 10 1993</strong> - Released Doom as a main programmer</li>
                         <li><strong>December 2 1999</strong> - Released Quake 3: Arena as a main programmer</li>
                         <li><strong>August 3 2004</strong> - Released Doom 3 as a technical director</li>
                         <li><strong>August 7 2013</strong> - Joined Oculus VR as a CTO</li>
-                        <li><strong>November 23 2013</strong> Resigned from id Software to work full-time at Oculus VR</li>
-                        <li><strong>November 13 2019</strong> Stepped down to the role of "Consulting CTO" in order to allocate time to his work on AGI</li>
+                        <li><strong>November 23 2013</strong> Resigned from id Software to work full-time at Oculus VR
+                        </li>
+                        <li><strong>November 13 2019</strong> Stepped down to the role of "Consulting CTO" in order to
+                            allocate time to his work on AGI</li>
                     </ul>
                 </div>
                 <br>
                 <blockquote cite="https://www.goodreads.com/author/quotes/65730.David_Kushner">
-                    "This is my daily work . . . When I accomplish something, I write a * line 
-                    that day. Whenever a bug / missing feature is mentioned during the day 
-                    and I don’t fix it, I make a note of it. Some things get noted many times 
-                    before they get fixed. Occasionally I go back through the old notes and 
+                    "This is my daily work . . . When I accomplish something, I write a * line
+                    that day. Whenever a bug / missing feature is mentioned during the day
+                    and I don’t fix it, I make a note of it. Some things get noted many times
+                    before they get fixed. Occasionally I go back through the old notes and
                     mark with a + the things I have since fixed."
                 </blockquote>
-                <cite> --  David Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</cite>
+                <cite> -- David Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop
+                    Culture</cite>
             </div>
+            <h2>Image gallery</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="images/id.jpeg">
+                        <img src="images/id.jpeg" alt="is Software early days" width="800" height="600">
+                    </a>
+                    <div class="desc">id Software early days</div>
+                </div>
             </div>
-        </main>
-    </body>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="images/romero_carmack.png">
+                        <img src="images/romero_carmack.png" alt="John Romero and John Carmack, 1990" width="800"
+                            height="600">
+                    </a>
+                    <div class="desc">John Romero and John Carmack, 1990</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="images/John-Carmack-Oculus-Rift.jpeg">
+                        <img src="images/John-Carmack-Oculus-Rift.jpeg" alt="John Carmack and the prototype of Oculus Rift" width="800"
+                            height="600">
+                    </a>
+                    <div class="desc">John Carmack and the prototype of Oculus Rift</div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+</body>
+
 </html>
