@@ -61,7 +61,7 @@ div.desc {
 
 .responsive {
     padding: 0 6px;
-    float:initial:
+    float:left;
     width: 24.9999%;
 }
 
@@ -86,4 +86,8 @@ clearfix ::after {
 
 h2 {
     text-align: center;
+}
+
+.background-dirty {
+    background-color: rgb(219, 212, 212);
 }
